@@ -66,11 +66,90 @@ main {
 
 /* interests section styles */
 #interests {
-    border: 4px silver ridge;
+    border: 4px rgb(239, 151, 0) ridge;
     padding: 8px;
     margin-top: 20px;
 }
 
 h2, h3 {
     margin: 0px;
+}
+
+.content h1 {
+  color: rgb(205, 178, 4);
+}
+
+#portfolio {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#portfolio li {
+  background: #aa6900;
+  padding: 20px;
+  border-radius: 30px;
+  margin-bottom: 40px;
+}
+
+#portfolio li:hover {
+  background: #dff800;
+}
+
+#portfolio a {
+  text-decoration: none;
+  color: #d1b200;
+}
+
+/* responsive web design */
+@media screen and (min-width: 120px) and (max-width: 1080px) {
+  main {
+    height: 100ch;
+    zoom: 1.5;
+    display: grid;
+  }
+
+  h1 {
+    font-size: 44px;
+    color: rgba(255, 213, 0, 0.896)
+    
+  }
+
+  h2 {
+    font-size: 42px;
+    color: rgba(205, 128, 4, 0.896)
+  }
+
+  h3 {
+    font-size: 36px;
+    color: rgba(252, 211, 145, 0.896)
+  }
+
+  #all-contents {
+    height: 100ch;
+    margin: none;
+  }
+
+  a {
+    font-size: 42px;
+  }
+
+  .sidebar {
+    margin-right: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sidebar-img {
+    width: 100%;
+  }
+
+  p,
+  li {
+    font-size: 24px;
+  }
+
+  .content {
+    align-content: center;
+    justify-content: center;
+  }
 }
