@@ -75,8 +75,10 @@ h2, h3 {
     margin: 0px;
 }
 
+/* Portfolio styles */
+
 .content h1 {
-  color: rgb(205, 178, 4);
+  color: mediumseagreen;
 }
 
 #portfolio {
@@ -85,43 +87,41 @@ h2, h3 {
 }
 
 #portfolio li {
-  background: #aa6900;
-  padding: 20px;
-  border-radius: 30px;
-  margin-bottom: 40px;
+  background: #ffe100;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 25px;
 }
 
 #portfolio li:hover {
-  background: #dff800;
+  background: #fa97e5;
 }
 
 #portfolio a {
   text-decoration: none;
-  color: #d1b200;
+  font-family: fantasy;
+  color: #18d784;
 }
 
+/* new stuff
 /* responsive web design */
 @media screen and (min-width: 120px) and (max-width: 1080px) {
   main {
     height: 100ch;
-    zoom: 1.5;
+    zoom: 10;
     display: grid;
   }
 
   h1 {
-    font-size: 44px;
-    color: rgba(255, 213, 0, 0.896)
-    
+    font-size: 80px;
   }
 
   h2 {
-    font-size: 42px;
-    color: rgba(205, 128, 4, 0.896)
+    font-size: 80px;
   }
 
   h3 {
-    font-size: 36px;
-    color: rgba(252, 211, 145, 0.896)
+    font-size: 80px;
   }
 
   #all-contents {
