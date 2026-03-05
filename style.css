@@ -108,12 +108,13 @@ h2, h3 {
 @media screen and (min-width: 120px) and (max-width: 1080px) {
   main {
     height: 100ch;
-    zoom: 10;
+    zoom: 25;
     display: grid;
   }
 
   h1 {
     font-size: 80px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
   }
 
   h2 {
