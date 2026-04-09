@@ -38,9 +38,9 @@ var init = function (window) {
 
 
         // TODO 7 : Use a loop to create multiple circles
-        for (var i = 0; i < 100; i++) {
-drawCircle(); 
-}
+        for (var i = 0; i <= 100; i++) {
+            drawCircle(); 
+        }
 
 
 
@@ -63,8 +63,8 @@ drawCircle();
 
             // TODO 8 / TODO 9 : Iterate over the array
            for (var i = 0; i < circles.length; i++) {
-            game.checkCirclePosition([i]);
-            physikz.updatePosition([i]);
+            game.checkCirclePosition(circles[i]);
+            physikz.updatePosition(circles[i]);
         }
         }
     
